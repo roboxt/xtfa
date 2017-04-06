@@ -1,23 +1,6 @@
 XtBot...
 <p align="center"> ![http://nahrup.ir/view/876/adv-v4.png](http://nahrup.ir/view/876/adv-v4.png)
-<h1 align="left">`[⚓️](AdvanSource`, _bot with fast speed and high power)_</h1><p align=centert">  <p align="left">[![Join the chat at https://gitter.im/janlou/AdvanSource](https://badges.gitter.im/AdvanSource.svg)](https://gitter.im/janlou/AdvanSource?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
-<h4> It is an anti spam bot (CLI) with fast speed and free for you! based on [TeleSeed](https://github.com/SEEDTEAM/TeleSeed) and powered by [ADVAN™](http://telegram.me/advantm), this source have an original *Autolaunch* and *Steady script* for your ubuntu server.
-***
-<p align="left">Creator: [[ JOIN! ]](https://telegram.me/advanbot)
-<p align="left">Channel: [[ JOIN! ]](https://telegram.me/joinchat/CbNIGj07Z0YAy3CX5MRQaQ)
-<p align="left">Support: [[ JOIN! ]](https://telegram.me/joinchat/Bqy_YT_BXhTWrPiN97yvsg)
-***
-## You can create an account for free in:
-|Rank | Name | Adress |
-|:--------|:----------|:------------|
-| <h4>`Rank` _(1)_ | Codenvy | [https://codenvy.com](https://codenvy.com) |
-| <h4>`Rank` _(2)_ | Codeanywhere | [https://codeanywhere.com](https://codeanywhere.com) |
-| <h4>`Rank` _(3)_ | Cloud9 | [https://C9.io](https://C9.io) |
-| <h4>`Rank` _(4)_ | Koding | [https://koding.com](https://koding.com) |
-| <h4>`Rank` _(5)_ | SourceLair | [https://www.sourcelair.com/home](https://www.sourcelair.com) |
-| <h4>`Rank` _(6)_ | Nitrous | [https://www.nitrous.io/](https://www.nitrous.io) |
-
-##Strong management:
+<h1 align="left">`[⚓️](AdvanSource`, _bot with fast speed and high power)_</h1><p align=centert">  <p align="left">[![Join th
 - <p align="left">Lock link
 - <p align="left">Lock spam
 - <p align="left">Lock flood
@@ -63,7 +46,7 @@ XtBot...
 |:-----------------------|
 - <p align="left">Clone Source:
 ```sh
-git clone https://github.com/janlou/AdvanSource && cd AdvanSource
+git clone https://github.com/robosaz/xtfa && cd xtfa
 ```
 - <p align="left">install bot:
 ```sh
