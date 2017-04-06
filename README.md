@@ -10,12 +10,6 @@ XtBot...
 ## You can create an account for free in:
 |Rank | Name | Adress |
 |:--------|:----------|:------------|
-| <h4>`Rank` _(1)_ | Codenvy | [https://codenvy.com](https://codenvy.com) |
-| <h4>`Rank` _(2)_ | Codeanywhere | [https://codeanywhere.com](https://codeanywhere.com) |
-| <h4>`Rank` _(3)_ | Cloud9 | [https://C9.io](https://C9.io) |
-| <h4>`Rank` _(4)_ | Koding | [https://koding.com](https://koding.com) |
-| <h4>`Rank` _(5)_ | SourceLair | [https://www.sourcelair.com/home](https://www.sourcelair.com) |
-| <h4>`Rank` _(6)_ | Nitrous | [https://www.nitrous.io/](https://www.nitrous.io) |
 
 ##Strong management:
 - <p align="left">Lock link
