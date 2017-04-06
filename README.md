@@ -1,6 +1,6 @@
 ## XtBot... 
-```
-`| XtBot by ShahinXT: |
+
+| XtBot by ShahinXT: |
 ```
 ``` 
 |-       آیدی کانال @Xt_robo - |
