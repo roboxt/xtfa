@@ -1,6 +1,10 @@
 ## XtBot... 
-
-###| XtBot by ShahinXT: |
+```
+`| XtBot by ShahinXT: |
+```
+``` 
+|-       آیدی کانال @Xt_robo - |
+```
 |Rank | Name | Adress |
 |:--------|:----------|:------------|
 
@@ -57,7 +61,6 @@ git clone https://github.com/janlou/AdvanSource && cd AdvanSource
 ```sh
 chmod 700 start.sh
 ./start.sh install
-y
 ```
 | ANTI CRASH |
 |:-----------------------|
