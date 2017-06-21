@@ -14,28 +14,35 @@
 
 
 ## SuperGroup's languages (you can say !lang list):
-| Commands | Usage | 
-|:--------|:----------|:------------|
+
+|:----EN----|:-----FA-----|:------فا------|
 
 
-| <h4>[!#/]setlang `en` | Change launguage of supergroup to `enlish` when you are in a supergroup |
-| <h4>[!#/]setlang `fa` | تغییر زبان سوپرگروه به `فارسی با دستورات انگلیسی` زمانیکه شما در سوپرگروه میباشید |
-| <h4>[!#/]setlang `فا` | تغییر زبان سوپرگروه `فارسی با دستورات فارسی` زمانیکه شما در سوپرگروه میباشید |
-## Chat's languages:
+## تنظیم ربات در ۳ نوع زبان
 | Commands | Usage | 
 |:--------|:----------|:------------|
-| <h4>[!#/]setlang `en` | Change launguage of chat to `enlish` when you are in a chat |
-| <h4>[!#/]setlang `fa` | تغییر زبان چت به `فارسی با دستورات انگلیسی` زمانیکه شما در چت میباشید |
-| <h4>[!#/]setlang `فا` | تغییر زبان چت `فارسی با دستورات فارسی` زمانیکه شما در چت میباشید |
+| <h4>[!#/]setlang `en`
+| در این نوع تنظیم دستورات ارسالی و پاسخ های دریافتی بصورت انگلیسی خواهد بود |
+
+| <h4>[!#/]setlang `fa` 
+| در این نوع تنظیم دستورات ارسالی انگلیسی بوده و پاسخ های دریافتی بصورت فارسی خواهد بود |
+
+| <h4>[!#/]setlang `فا` 
+| در این نوع تنظیم دستورات ارسالی و پاسخ های دریافتی بصورت فارسی خواهد بود |
+
+
 # Auto Launch Confiure :
 
-**go to steady.sh and config it !**
+**  دستور اتولانچ ربات  **
+```
+tmux new-session -s script "bash steady.sh -t"
+```
 
 ***Then Go To line 9 - 10 and change bot folder name and reload time!***
 
 ##Strong management:
 
-```sh
+```
 - <p align="left">Lock link
 - <p align="left">Lock spam
 - <p align="left">Lock flood
@@ -70,26 +77,29 @@
 - <p align="left">Clone Source:
 ```
 sh
-git clone https://github.com/janlou/AdvanSource && cd AdvanSource
+git clone https://github.com/robosaz/xtfa
+cd xtfa
 ```
 - <p align="left">install bot:
 ```sh
 chmod 700 start.sh
 ./start.sh install
 ```
-| ANTI CRASH |
-|:-----------------------|
-```sh
-tmux new-session -s script "bash steady.sh -t"
+
+| `screen ./steady.sh -t` |
+
+# | CLI Bot |
+# اجرا با شماره تلفن
 ```
-- <p align="left">Now run your bot then enter bot's phone number and join code:
-`./start.sh -q`
-- <p align="left">And you can start bot with steady script:
+/start.sh
+```sh
 
-| FREE SERVER: |
-|:-----------------------|
-| `./steady.sh -t` |
+# | Api Bot |
+# اجرا با ربات های 
+# api
+```
+./start.sh api
+```sh
 
-| BOUGHT SERVER: |
-|:-----------------------|
+
 | `screen ./steady.sh -t` |
