@@ -57,7 +57,7 @@ function run(msg, matches)
 		end
 	end
 	
-	if matches[1] == "help" then
+	if matches[1] == "دستورات" then
 	    if not is_super_group(msg) and type == channel then
 		    return "SuperGroup is not added!"
 		elseif not is_group(msg) and type == chat then
@@ -94,26 +94,26 @@ function run(msg, matches)
 				    if not redis:get("sp:lang") then
 					    return error
 				    elseif redis:get("sp:lang") == "fa" then
-					    help = http.request("http://www.folder98.ir/1395/05/1473700489.txt")
+					    help = http.request("http://xtbot.ir/helpxt4.txt")
 						return help
 					elseif redis:get("sp:lang") == "en" then
-					    help = http.request("http://www.folder98.ir/1395/05/1473726399.txt")
+					    help = http.request("http://xtbot.ir/helpxt3.txt")
 						return help
 				    elseif redis:get("sp:lang") == "فا" then
-					    help = http.request("http://www.folder98.ir/1395/05/1473703817.txt")
+					    help = http.request("http://xtbot.ir/helpxt2.txt")
 						return help
 					end
 				elseif msg.to.type == "chat" then
 				    if not redis:get("gp:lang") then
 					    return error
 				    elseif redis:get("gp:lang") == "fa" then
-					    help = http.request("http://www.folder98.ir/1395/05/1473685968.txt")
+					    help = http.request("http://xtbot.ir/helpxt1.txt")
 						return help
 					elseif redis:get("gp:lang") == "en" then
-					    help = http.request("http://www.folder98.ir/1395/05/1473743959.txt")
+					    help = http.request("http://xtbot.ir/helpmodxt.txt")
 						return help
 				    elseif redis:get("gp:lang") == "فا" then
-					    help = http.request("http://www.folder98.ir/1395/05/1473704736.txt")
+					    help = http.request("http://xtbot.ir/helpxt.txt")
 						return help
 					end
 				end
@@ -163,7 +163,11 @@ function run(msg, matches)
 	end
 end
 return {
-advan = "http://github.com/janlou/AdvanSource",
-patterns = {"^[!#/](help)$","^[!#/]([Ss]ethelp) (.*)$","^[!#/](delhelp)$"},
+advan = "http://github.com/janlou/Xt_robo",
+patterns = {
+"^(دستورات)$",
+"^[!#/]([Ss]ethelp) (.*)$",
+"^[!#/](delhelp)$"
+},
 run = run,
 }
