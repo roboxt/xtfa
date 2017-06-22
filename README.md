@@ -1,26 +1,22 @@
-##  <h1>  XtBot... 
+##  <h1>  XtBot... XtFa
 
 | XtBot by ShahinXT: |
 
 
  
-آیدی کانال 
- 
- 
-|   @Xt_robo |
+# کانال پشتیبانی  
 
-|Rank | Name | Adress |
-|:--------|:----------|:------------|
+| Channel  @Xt_robo |
 
 
-## SuperGroup's languages (you can say !lang list):
 
-|:----EN----|:-----FA-----|:------فا------|
+## SuperGroup's languages ( !lang list):
+
+<h2>|:----EN----|:-----FA-----|:------فا------|</h2>
 
 
 ## تنظیم ربات در ۳ نوع زبان
-| Commands | Usage | 
-|:--------|:----------|:------------|
+
 | <h2>/setlang `en`
 | <h3>| در این نوع تنظیم دستورات ارسالی و پاسخ های دریافتی بصورت انگلیسی خواهد بود |
 
@@ -34,7 +30,7 @@
 
 
 
-##Strong management:
+## لیست قفل ها
 - <p align="left">Lock link
 - <p align="left">Lock spam
 - <p align="left">Lock flood
