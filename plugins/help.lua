@@ -73,8 +73,8 @@ function run(msg, matches)
 		        hash1 = "help:gp"
 			    hash2 = "help:"..msg.to.id
 		    end
-			local one = io.open("./system/team", "r")
-            local two = io.open("./system/channel", "r")
+			local one = io.open("./xtix/team", "r")
+            local two = io.open("./xtix/channel", "r")
             local team = one:read("*all")
             local channel = two:read("*all")
 			local is_hash1 = redis:get(hash1)
@@ -165,9 +165,9 @@ end
 return {
 advan = "http://github.com/janlou/Xt_robo",
 patterns = {
-"^(دستورات)$",
+"^[!#/](help)$",
 "^[!#/]([Ss]ethelp) (.*)$",
-"^[!#/](delhelp)$"
+"^[!#/](delhelp)$",
 },
 run = run,
 }

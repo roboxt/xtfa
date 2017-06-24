@@ -15,7 +15,7 @@ local function chat_list(msg)
 
                 message = message .. '️ '.. name .. ' (ID: ' .. v .. ')\n\n '
         end
-        local file = io.open("./system/chats/lists/listed_groups.txt", "w")
+        local file = io.open("./xtix/chats/lists/listed_groups.txt", "w")
         file:write(message)
         file:flush()
         file:close()
