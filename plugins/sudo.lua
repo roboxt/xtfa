@@ -1,7 +1,7 @@
 local function set_bot_photo(msg, success, result)
   local receiver = get_receiver(msg)
   if success then
-    local file = 'system/photos/bot.jpg'
+    local file = 'xtix/photos/bot.jpg'
     print('File downloaded to:', result)
     os.rename(result, file)
     print('File moved to:', file)
@@ -476,7 +476,7 @@ local function returnids(cb_extra, success, result)
 		    i = i + 1
 		end
     end
-	local file = io.open("./system/chats/lists/"..result.peer_id.."memberlist.txt", "w")
+	local file = io.open("./xtix/chats/lists/"..result.peer_id.."memberlist.txt", "w")
 	file:write(text)
 	file:flush()
 	file:close()
@@ -580,7 +580,7 @@ local function groups_list(msg)
 			end
 		end
 	end
-    local file = io.open("./system/chats/lists/groups.txt", "w")
+    local file = io.open("./xtix/chats/lists/groups.txt", "w")
 	file:write(message)
 	file:flush()
 	file:close()
@@ -610,7 +610,7 @@ local function realms_list(msg)
 		end
 		message = message .. '- '.. name .. ' (' .. v .. ') ['..group_owner..'] \n {'..group_link.."}\n"
 	end
-	local file = io.open("./system/chats/lists/realms.txt", "w")
+	local file = io.open("./xtix/chats/lists/realms.txt", "w")
 	file:write(message)
 	file:flush()
 	file:close()
@@ -785,14 +785,14 @@ end
    	local name_log = user_print_name(msg.from)
 		if matches[1] == 'log' and is_owner(msg) then
 		local receiver = get_receiver(msg)
-		send_document(receiver,"./system/chats/logs/"..msg.to.id.."log.txt", ok_cb, false)
+		send_document(receiver,"./xtix/chats/logs/"..msg.to.id.."log.txt", ok_cb, false)
     end
 
 	if matches[1] == 'who' and msg.to.type == 'chat' and is_momod(msg) then
 		local name = user_print_name(msg.from)
 		local receiver = get_receiver(msg)
 		chat_info(receiver, returnids, {receiver=receiver})
-		local file = io.open("./system/chats/lists/"..msg.to.id.."memberlist.txt", "r")
+		local file = io.open("./xtix/chats/lists/"..msg.to.id.."memberlist.txt", "r")
 		text = file:read("*a")
         send_large_msg(receiver,text)
         file:close()
@@ -801,7 +801,7 @@ end
 		local name = user_print_name(msg.from)
 		local receiver = get_receiver(msg)
 		chat_info(receiver, returnids, {receiver=receiver})
-		send_document("chat#id"..msg.to.id,"./system/chats/lists/"..msg.to.id.."memberlist.txt", ok_cb, false)
+		send_document("chat#id"..msg.to.id,"./xtix/chats/lists/"..msg.to.id.."memberlist.txt", ok_cb, false)
 	end
 
 	if matches[1] == 'whois' and is_momod(msg) then
@@ -1098,24 +1098,24 @@ end
 		if matches[1] == 'list' and matches[2] == 'groups' then
 			if msg.to.type == 'chat' or msg.to.type == 'channel' then
 				groups_list(msg)
-				send_document("chat#id"..msg.to.id, "./system/chats/lists/groups.txt", ok_cb, false)
-				send_document("channel#id"..msg.to.id, "./system/chats/lists/groups.txt", ok_cb, false)
+				send_document("chat#id"..msg.to.id, "./xtix/chats/lists/groups.txt", ok_cb, false)
+				send_document("channel#id"..msg.to.id, "./xtix/chats/lists/groups.txt", ok_cb, false)
 				return "Group list created" --group_list(msg)
 			elseif msg.to.type == 'user' then
 				groups_list(msg)
-				send_document("user#id"..msg.from.id, "./system/chats/lists/groups.txt", ok_cb, false)
+				send_document("user#id"..msg.from.id, "./xtix/chats/lists/groups.txt", ok_cb, false)
 				return "Group list created" --group_list(msg)
 			end
 		end
 		if matches[1] == 'list' and matches[2] == 'realms' then
 			if msg.to.type == 'chat' or msg.to.type == 'channel' then
 				realms_list(msg)
-				send_document("chat#id"..msg.to.id, "./system/chats/lists/realms.txt", ok_cb, false)
-				send_document("channel#id"..msg.to.id, "./system/chats/lists/realms.txt", ok_cb, false)
+				send_document("chat#id"..msg.to.id, "./xtix/chats/lists/realms.txt", ok_cb, false)
+				send_document("channel#id"..msg.to.id, "./xtix/chats/lists/realms.txt", ok_cb, false)
 				return "Realms list created" --realms_list(msg)
 			elseif msg.to.type == 'user' then
 				realms_list(msg)
-				send_document("user#id"..msg.from.id, "./system/chats/lists/realms.txt", ok_cb, false)
+				send_document("user#id"..msg.from.id, "./xtix/chats/lists/realms.txt", ok_cb, false)
 				return "Realms list created" --realms_list(msg)
 			end
 		end
