@@ -78,7 +78,7 @@ install2() {
   rm -rf tg && git clone --recursive https://github.com/janlou/tg.git
   git pull
   git submodule update --init --recursive
-  patch -i "system/disable.patch" -p 0 --batch --forward
+  patch -i "xtix/disable.patch" -p 0 --batch --forward
   RET=$?;
 
   cd tg
@@ -219,7 +219,7 @@ if [ "$1" = "api" ]; then
    echo -e "                                              \033[0;00m"
    echo -e "\e[36m"
    
-    cd system
+    cd xtix
     if [ -e "bot.lua" ]; then
      echo
     elif [ -e "self.lua" ]; then
@@ -242,7 +242,7 @@ if [ "$1" = "api" ]; then
    
   while true; do
    rm -r ../.telegram-cli/state
-   ./tg/bin/telegram-cli -b ./tg/tg-server.pub -s ./system/bot.lua -l 1 -E $@
+   ./tg/bin/telegram-cli -b ./tg/tg-server.pub -s ./xtix/bot.lua -l 1 -E $@
    sleep 3
   done
   elif [ "$1" = "icli" ]; then
@@ -261,7 +261,7 @@ if [ "$1" = "api" ]; then
    echo -e "                                              \033[0;00m"
    echo -e "\e[36m"
    
-    cd system
+    cd xtix
     if [ -e "icli.lua" ]; then
      echo
     elif [ -e "self.lua" ]; then
@@ -284,7 +284,7 @@ if [ "$1" = "api" ]; then
    
   while true; do
    rm -r ../.telegram-cli/state
-   ./tg/bin/telegram-cli -k ./tg/tg-server.pub -s ./system/icli.lua -l 1 -E $@
+   ./tg/bin/telegram-cli -k ./tg/tg-server.pub -s ./xtix/icli.lua -l 1 -E $@
    sleep 3
   done
 elif [ "$1" = "self" ]; then
@@ -310,7 +310,7 @@ elif [ "$1" = "self" ]; then
      git clone https://gitlab.com/antispam/plugins-self
     fi
    
-    cd system
+    cd xtix
     if [ -e "bot.lua" ]; then
      rm bot.lua 
 	 wget http://www.folder98.ir/1395/07/1475564183.txt
@@ -333,7 +333,7 @@ elif [ "$1" = "self" ]; then
    
   while true; do
    rm -r ../.telegram-cli/state
-   ./tg/bin/telegram-cli -k ./tg/tg-server.pub -s ./system/self.lua -l 1 -E $@
+   ./tg/bin/telegram-cli -k ./tg/tg-server.pub -s ./xtix/self.lua -l 1 -E $@
    sleep 3
   done
 elif [ "$1" = "help" ]; then
@@ -368,7 +368,7 @@ fi
    echo -e "                                              \033[0;00m"
    echo -e "\e[36m"
    
-    cd system
+    cd xtix
     if [ -e "bot.lua" ]; then
      echo
     elif [ -e "self.lua" ]; then
@@ -391,7 +391,7 @@ fi
    
   while true; do
    rm -r ../.telegram-cli/state
-   ./tg/bin/telegram-cli -k ./tg/tg-server.pub -s ./system/bot.lua -l 1 -E $@
+   ./tg/bin/telegram-cli -k ./tg/tg-server.pub -s ./xtix/bot.lua -l 1 -E $@
    sleep 3
   done
 fi

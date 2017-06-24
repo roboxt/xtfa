@@ -69,7 +69,7 @@ NONVOLUNTARYCHECK=0
 VOLUNTARY=1
 VOLUNTARYCHECK=0
 I=1
-BOT=AdvanSource  # You can put here other bots. Also you can change it to run more than one bot in the same server.
+BOT=xtfa  # You can put here other bots. Also you can change it to run more than one bot in the same server.
 RELOADTIME=10  # Time between checking cpu calls of the cli process. Set the value high if your bot does not receive lots of messages.
 LAUNCHER=start.sh
 
@@ -108,7 +108,7 @@ echo -e "\033[38;5;208m        \  \::/        \  \:\/:/   \  \:\|  |:|  \  \::/ 
 echo -e "\033[38;5;208m         \  \:\         \  \::/     \  \:\__|:|   \  \:\        \  \:\       \033[0;00m"
 echo -e "\033[38;5;208m          \  \:\         \__\/       \__\::::/     \  \:\        \  \:\      \033[0;00m"
 echo -e "\033[38;5;208m           \__\/                         ~~~~       \__\/         \__\/      \033[0;00m"
-echo -e "\033[38;5;208m               \e[01;34m       https://github.com/janlou/AdvanSource             \e[00;37;40m"
+echo -e "\033[38;5;208m               \e[01;34m       https://github.com/robosaz/xtfa             \e[00;37;40m"
 echo ""
 cat << EOF
  $bld$f1▄ ▀▄   ▄▀ ▄   $f2 ▄▄▄████▄▄▄    $f3  ▄██▄     $f4▄ ▀▄   ▄▀ ▄   $f5 ▄▄▄████▄▄▄    $f6  ▄██▄  $rst
@@ -271,7 +271,7 @@ echo -e "\033[38;5;208m        \  \::/        \  \:\/:/   \  \:\|  |:|  \  \::/ 
 echo -e "\033[38;5;208m         \  \:\         \  \::/     \  \:\__|:|   \  \:\        \  \:\       \033[0;00m"
 echo -e "\033[38;5;208m          \  \:\         \__\/       \__\::::/     \  \:\        \  \:\      \033[0;00m"
 echo -e "\033[38;5;208m           \__\/                         ~~~~       \__\/         \__\/      \033[0;00m"
-echo -e "\033[38;5;208m               \e[01;34m       https://github.com/janlou/AdvanSource             \e[00;37;40m"
+echo -e "\033[38;5;208m               \e[01;34m       https://github.com/robosaz/xtfa             \e[00;37;40m"
 echo ""
 cat << EOF
  $bld$f1▄ ▀▄   ▄▀ ▄   $f2 ▄▄▄████▄▄▄    $f3  ▄██▄     $f4▄ ▀▄   ▄▀ ▄   $f5 ▄▄▄████▄▄▄    $f6  ▄██▄  $rst
