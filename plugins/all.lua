@@ -117,11 +117,11 @@ local function all(msg,target,receiver)
   text = text.."\n\n"..muted_user_list
   local ban_list = ban_list(target)
   text = text.."\n\n"..ban_list
-  local file = io.open("./xtix/chats/all/"..target.."all.txt", "w")
+  local file = io.open("./system/chats/all/"..target.."all.txt", "w")
   file:write(text)
   file:flush()
   file:close()
-  send_document(receiver,"./xtix/chats/all/"..target.."all.txt", ok_cb, false)
+  send_document(receiver,"./system/chats/all/"..target.."all.txt", ok_cb, false)
   return
 end
 
@@ -144,7 +144,7 @@ end
 return {
   patterns = {
   "^[#!/](all)$",
-  "^[#!/](all) (%d+)$",
+  "^[#!/](all) (%d+)$"
   },
   run = run
 }

