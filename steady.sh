@@ -70,7 +70,7 @@ VOLUNTARY=1
 VOLUNTARYCHECK=0
 I=1
 BOT=xtfa  # You can put here other bots. Also you can change it to run more than one bot in the same server.
-RELOADTIME=10  # Time between checking cpu calls of the cli process. Set the value high if your bot does not receive lots of messages.
+RELOADTIME=25  # Time between checking cpu calls of the cli process. Set the value high if your bot does not receive lots of messages.
 LAUNCHER=start.sh
 
 
@@ -136,7 +136,7 @@ sleep 0.5
 
 echo ""
 echo -e "\033[38;5;208m 𝓟𝓸𝔀𝒆𝓻𝒆𝓭 𝓫𝔂: \033[0;00m"
-echo -e "\033[38;5;208m Ａｄｖａｎ Ｔｅａｍ \033[0;00m"
+echo -e "\033[38;5;208m XＴ BOT \033[0;00m"
 echo -e "\033[38;5;208m @GPMod    :)      @cruel_channel \033[0;00m"
 echo -e "\033[38;5;208m @GPMod    :)      @cruel_channel \033[0;00m"
 
@@ -299,7 +299,7 @@ sleep 0.5
 
 echo ""
 echo -e "\033[38;5;208m 𝓟𝓸𝔀𝒆𝓻𝒆𝓭 𝓫𝔂: \033[0;00m"
-echo -e "\033[38;5;208m Ａｄｖａｎ Ｔｅａｍ \033[0;00m"
+echo -e "\033[38;5;208m XtFa Bot \033[0;00m"
 echo -e "\033[38;5;208m @GPMod    :)      @cruel_channel \033[0;00m"
 echo -e "\033[38;5;208m @GPMod    :)      @cruel_channel \033[0;00m"
 # Starting preliminar setup
@@ -568,7 +568,7 @@ while getopts ":tsTSih" opt; do
 	echo -e "\e[0m"
 
 echo -e "\033[38;5;208m 𝓟𝓸𝔀𝒆𝓻𝒆𝓭 𝓫𝔂: \033[0;00m"
-echo -e "\033[38;5;208m Ａｄｖａｎ Ｔｅａｍ \033[0;00m"
+echo -e "\033[38;5;208m XtFa Bot \033[0;00m"
 echo -e "\033[38;5;208m @GPMod    :)      @cruel_channel \033[0;00m"
 echo -e "\033[38;5;208m @GPMod    :)      @cruel_channel \033[0;00m"
 echo ""
