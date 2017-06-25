@@ -232,7 +232,7 @@ function create_config( )
     "tools",
     "s1",
     "s2",
-    "s3",
+    "musicXT",
     "files",
     "Sticker",
     "Photo",
