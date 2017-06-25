@@ -8,7 +8,7 @@ update() {
   git submodule update --init --recursive
   install_rocks
 }
-#By: @AdvanTm
+#By: @xt_robo
 # Will install luarocks on THIS_DIR/.luarocks
 install_luarocks() {
   git clone https://github.com/keplerproject/luarocks.git
@@ -206,6 +206,7 @@ fi
 if [ "$1" = "api" ]; then
    echo -e "\033[38;5;208m"
    echo -e "----------------------------------------------"
+echo -e "sssssssssss"
    echo -e "     ___    ____ __    __ ___    _   _        "
    echo -e "    / _ \  |  _ \\ \  / // _ \  | \  ||       "
    echo -e "   / /_\ \ | |_| |\ \/ // /_\ \ ||\\_||       "
@@ -218,7 +219,15 @@ if [ "$1" = "api" ]; then
    echo -e "----------------------------------------------"
    echo -e "                                              \033[0;00m"
    echo -e "\e[36m"
-   
+echo -e "\033[38;5;208m"   
+echo -e "--------------------------------------------------"
+echo -e "-- ____  ____  _________  ____    ____ _________"                       --
+echo -e "--   \ \/ /    |  _  _ |  |  _ ) / -- \|__   __|"
+echo -e "--   / /\ \       | |     )  _ \( (  ) )  | |"   
+echo -e "-- ___/  \___     |_|     |____/ \____/   |_|"
+echo -e "__________________________________________________"
+echo -e "                                              \033[0;00m"
+echo -e "\e[36m"   
     cd system
     if [ -e "bot.lua" ]; then
      echo
@@ -248,6 +257,7 @@ if [ "$1" = "api" ]; then
   elif [ "$1" = "icli" ]; then
    echo -e "\033[38;5;208m"
    echo -e "----------------------------------------------"
+echo -e "sssssssssss"
    echo -e "     ___    ____ __    __ ___    _   _        "
    echo -e "    / _ \  |  _ \\ \  / // _ \  | \  ||       "
    echo -e "   / /_\ \ | |_| |\ \/ // /_\ \ ||\\_||       "
@@ -260,7 +270,15 @@ if [ "$1" = "api" ]; then
    echo -e "----------------------------------------------"
    echo -e "                                              \033[0;00m"
    echo -e "\e[36m"
-   
+echo -e "\033[38;5;208m"   
+echo -e "--------------------------------------------------"
+echo -e "-- ____  ____  _________  ____    ____ _________"                       --
+echo -e "--   \ \/ /    |  _  _ |  |  _ ) / -- \|__   __|"
+echo -e "--   / /\ \       | |     )  _ \( (  ) )  | |"   
+echo -e "-- ___/  \___     |_|     |____/ \____/   |_|"
+echo -e "__________________________________________________"
+echo -e "                                              \033[0;00m"
+echo -e "\e[36m"    
     cd system
     if [ -e "icli.lua" ]; then
      echo
