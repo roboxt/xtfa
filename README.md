@@ -29,15 +29,6 @@ chmod 700 start.sh
 
 | `screen ./steady.sh -t` |
 
-```
-cd .luarocks
-cd bin
-./luarocks-5.2 install luafilesystem
-./luarocks-5.2 install lub
-./luarocks-5.2 install luaexpat
-cd $HOME
-
-```
 
 
 # | CLI Bot |
