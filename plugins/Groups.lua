@@ -1,3 +1,16 @@
+--------------------------------------------------
+-- ____  ____  _________  ____    ____ _________                       --
+--   \ \/ /    |  _  _ |  |  _ ) / -- \|__   __|
+--   / /\ \       | |     )  _ \( (  ) )  | |   
+-- ___/  \___     |_|     |____/ \____/   |_|
+__________________________________________________
+
+--                                              --
+--       Developers: SHAHIN XT        --
+--    Channel Support: @XT_ROBO ,     --
+--       Manufacturer @shahin_xtbot                       --
+--------------------------------------------------
+
 local function chat_list(msg)
     local data = load_data(_config.moderation.data)
         local groups = 'groups'
