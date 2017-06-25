@@ -1,18 +1,18 @@
 local function run(msg, matches)
-  if matches[1] == "مشخصات" then
+  if matches[1] == "موزیک" then
     local file = matches[2]
     if is_sudo(msg) then --sudo only !
       local receiver = get_receiver(msg)
-      send_document(receiver, "./plugins/HelpXt.txt", ok_cb, false)
-      else
-      return "شما مجاز به استفاده از این استیکر نیستید"
+      send_document(receiver, "./up/"..file..".mp3", ok_cb, false)
+      else 
+        return nil
     end
   end
 end
 
 return {
   patterns = {
-  "^(مشخصات) (.*)$"
+  "^(موزیک) (.*)$"
   },
   run = run
 }
