@@ -229,14 +229,15 @@ function create_config( )
     "supergroup",
     "language",
     "whitelist",
-    "tools"
-"s1",
-"s2",
-"s3",
-"files",
-"up",
-"Serverinfo",
-"Rmsg",
+    "tools",
+    "s1",
+    "s2",
+    "s3",
+    "files",
+    "up",
+    "Serverinfo",
+    "sazande",
+    "Rmsg"
 },
     vip_users = {}, --vip users
     sudo_users = {186280031,tonumber(our_id)},--Sudo users
