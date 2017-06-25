@@ -11,6 +11,67 @@
 | Channel  @Xt_robo |
 
 
+| INSTALL BOT |
+|:-----------------------|
+- <p align="left">Clone Source:
+```
+# Install dependencies.
+# Tested on Ubuntu 14.04. For other OSs, check out https://github.com/yagop/telegram-bot/wiki/Installation
+sudo apt-get install libreadline-dev libconfig-dev libssl-dev lua5.2 liblua5.2-dev libevent-dev make unzip git redis-server g++ libjansson-dev libpython-dev expat libexpat1-dev
+```
+
+```
+git clone https://github.com/robosaz/xtfa
+cd xtfa
+```
+- <p align="left">install bot:
+```sh
+chmod 700 start.sh
+./start.sh install
+```
+بعد دستور زیر رو اجرا کنید
+| `screen ./steady.sh -t` |
+
+```
+cd .luarocks
+cd bin
+./luarocks-5.2 install luafilesystem
+./luarocks-5.2 install lub
+./luarocks-5.2 install luaexpat
+cd $HOME
+
+```
+
+
+# | CLI Bot |
+# اجرا با شماره تلفن
+```
+/start.sh
+```
+
+# | Api Bot |
+# اجرا با ربات های 
+# api
+
+```
+./start.sh api
+
+```
+
+
+
+| `screen ./steady.sh -t` |
+
+
+# Auto Launch Confiure :
+
+**  دستور اتولانچ ربات  **
+```
+tmux new-session -s script "bash steady.sh -t"
+```
+
+
+
 
 ## SuperGroup's languages ( !lang list):
 
@@ -61,44 +122,3 @@
 - <p align="left">Show mutes list in settings
 - <p align="left">And ...
 
-| INSTALL BOT |
-|:-----------------------|
-- <p align="left">Clone Source:
-```
-sh
-git clone https://github.com/robosaz/xtfa
-cd xtfa
-```
-- <p align="left">install bot:
-```sh
-chmod 700 start.sh
-./start.sh install
-```
-
-| `screen ./steady.sh -t` |
-
-# | CLI Bot |
-# اجرا با شماره تلفن
-```
-/start.sh
-```
-
-# | Api Bot |
-# اجرا با ربات های 
-# api
-
-```
-./start.sh api
-
-```
-
-
-| `screen ./steady.sh -t` |
-
-
-# Auto Launch Confiure :
-
-**  دستور اتولانچ ربات  **
-```
-tmux new-session -s script "bash steady.sh -t"
-```
