@@ -31,15 +31,15 @@ chmod 700 start.sh
 
 
 
-# | CLI Bot |
+# | T Bot |
 # اجرا با شماره تلفن
 ```
 /start.sh
 ```
 
 # | Api Bot |
-# اجرا با ربات های 
-# api
+# اجرا با توکن ربات  
+
 
 ```
 ./start.sh api
