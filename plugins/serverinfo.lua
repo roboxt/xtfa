@@ -1,5 +1,5 @@
 local function run(msg, matches)
-local text = io.popen("sh ./data/Sinfo.sh"):read('*all')
+local text = io.popen("sh ./infoXT/Sinfo.sh"):read('*all')
 if is_sudo(msg) then
   return text
 end
