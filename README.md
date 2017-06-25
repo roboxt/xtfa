@@ -25,6 +25,8 @@ chmod 700 start.sh
 ./start.sh install
 ```
 بعد دستور زیر رو اجرا کنید
+
+
 | `screen ./steady.sh -t` |
 
 ```
