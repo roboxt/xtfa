@@ -234,7 +234,11 @@ function create_config( )
     "s2",
     "s3",
     "files",
-    "up",
+    "Sticker",
+    "Photo",
+    "Azan",
+    "Ons",
+    "pmXT",
     "Serverinfo",
     "sazande",
     "Rmsg"
