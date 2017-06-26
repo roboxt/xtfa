@@ -171,7 +171,7 @@ error() {
 sudo apt-get install libreadline-dev libconfig-dev libssl-dev lua5.2 liblua5.2-dev libevent-dev make unzip git redis-server g++ libjansson-dev libpython-dev expat libexpat1-dev tmux subversion
 }
 
-#By: @AdvanTm
+#By: @xt_robo
 if [ "$1" = "install" ]; then
   install
 elif [ "$1" = "update" ]; then
@@ -325,7 +325,7 @@ elif [ "$1" = "self" ]; then
      echo "Folder plugins for advan self mod exists."
     elif [ ! -d "plugins-self" ]; then
 		 echo "Please wait for create plugins-self folders..."
-     git clone https://gitlab.com/antispam/plugins-self
+     git clone https://github.com/robosaz/self
     fi
    
     cd system
