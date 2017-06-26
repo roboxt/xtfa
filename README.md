@@ -1,3 +1,6 @@
+# کسانی که مشکل دارن بعد از نصب به آدرس زیر مراجعه کنین 
+
+![https://github.com/robosaz/](https://github.com/robosaz/xtfa/tree/@janlou/up)
 
 
 ##  <h1>  XtBot... XtFa
