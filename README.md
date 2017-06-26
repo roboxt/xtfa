@@ -1,9 +1,4 @@
-# کسانی که مشکل دارن بعد از نصب به آدرس زیر مراجعه کنین 
-
-![https://github.com/robosaz/](https://github.com/robosaz/xtfa/tree/@janlou/up)
-
-
-##  <h1>  XtBot... XtFa
+#  <h1>  XtBot... XtFa
 
 | XtBot by ShahinXT: |
 
@@ -61,6 +56,9 @@ chmod 700 start.sh
 tmux new-session -s script "bash steady.sh -t"
 ```
 
+# کسانی که مشکل دارن بعد از نصب به آدرس زیر مراجعه کنین 
+
+![بخش آموزشی نصب سورس و اعلام بروزرسانی ها](https://github.com/robosaz/xtfa/tree/@janlou/up)
 
 
 
