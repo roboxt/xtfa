@@ -78,7 +78,10 @@ tmux new-session -s script "bash steady.sh -t"
 | <h3>| در این نوع تنظیم دستورات ارسالی و پاسخ های دریافتی بصورت فارسی خواهد بود |
 
 # دوستان سورس رو بروزرسانی کنید فایل ارور به سورس اضافه شد
+
 کسانی که اروری شبیه ارور زیر دریافت کردن
+[https://raw.githubusercontent.com/robosaz/xtfa/%40janlou/up/IMG_20170626_095233.png](https://raw.githubusercontent.com/robosaz/xtfa/%40janlou/up/IMG_20170626_095233.png)
+
 لطفا بصورت زیر عمل کنن تا مشکلشون برطرف بشه
 
 اول سورس رو آپدیت کنین
