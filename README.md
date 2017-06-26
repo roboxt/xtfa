@@ -79,36 +79,7 @@ tmux new-session -s script "bash steady.sh -t"
 
 
 
-
-
-## لیست قفل ها
-- <p align="left">Lock link
-- <p align="left">Lock spam
-- <p align="left">Lock flood
-- <p align="left">Lock media
-- <p align="left">Lock bots
-- <p align="left">Lock forward(fwd)
-- <p align="left">Lock reply
-- <p align="left">Lock share
-- <p align="left">Lock tag
-- <p align="left">Lock number
-- <p align="left">Lock poker
-- <p align="left">Lock audio
-- <p align="left">Lock video
-- <p align="left">Lock gifs
-- <p align="left">Lock documents
-- <p align="left">Lock photo
-- <p align="left">Lock all
-- <p align="left">Lock text
-- <p align="left">Lock inline
-- <p align="left">Lock cmd
-- <p align="left">Lock sticker
-- <p align="left">Lock rtl
-- <p align="left">Lock strict
-- <p align="left">Lock tgservice
-- <p align="left">Public & members
-- <p align="left">Show mutes list in settings
-- <p align="left">And ...
+![https://raw.githubusercontent.com/robosaz/xtfa/%40janlou/up/2017-06-26_10_36_05.gif](https://raw.githubusercontent.com/robosaz/xtfa/%40janlou/up/2017-06-26_10_36_05.gif)
 
 
  
