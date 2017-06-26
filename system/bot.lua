@@ -251,11 +251,11 @@ function create_config( )
 This is an original bot and based on (AdvanSource).
 Copyright all right reserved and you must respect all laws.
 
-Source: https://github.com/janlou/xt_robo 
+Source: https://github.com/robosaz/xt_robo 
 Channel: @xt_robo 
 Messenger: @sergatxt_bot 
 Creator: @shahin_xtbot 
-Site: http://StoreVps.net
+Site: http://xtbot.ir
 Version: [4.1]
 ]],
     --Start rate:
